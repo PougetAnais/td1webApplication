@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+/*
+font-size: 24px;
+font-style: italic;
+color: blue;   
+*/
+h2{
+    color: green;   
+}
+h3{
+    color: rgb(23, 0, 128);   
+}
+h4{
+    color: rgb(128, 0, 0);   
+}
+.boutton1{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px rgb(255, 255, 255);
+    align: center;
+
+}
+
+.boutton1:hover{
+
+    transition: 0.3s, cubic-bezier(20);
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
