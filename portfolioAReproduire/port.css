@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(125deg, #984D38 5%, #181E41 60%);
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    background-repeat: no-repeat;
+    /*height: 600px;*/
+}
+
+
+/* NAVBAR STYLES */
+nav button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.menu-icon{
+    color:white;
+    display: flex;  
+    align-items: center;
+    gap: 10px;
+}
+
+.J {
+    display: flex;          /* Permet de centrer la lettre à l'intérieur */
+    justify-content: center;
+    align-items: center;
+    width: 30px;            /* Largeur fixe pour un cercle parfait */
+    height: 30px;           /* Hauteur identique à la largeur */
+    border: 1px solid rgba(255, 255, 255, 0.8); /* Bordure fine comme sur l'image */
+    border-radius: 50%;     /* Rend l'élément parfaitement rond */
+    font-size: 14px;        /* Taille de la lettre J */
+    font-weight: bold;
+}
+
+/* Presentation */
+.Presentation{
+    display: flex;
+    margin:50px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+
+.line{
+    color: white;
+    text-align: center;
+    flex:1;
+}
+
+.line h1{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.line div{
+    color: white;
+    margin-bottom: 50px;
+    opacity: 60%;
+
+}
+
+.textAcote{
+    color: white;
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 15px;
+    width: 5px;
+    flex:1;
+    justify-content: end;
+}
+
+
+.textAcote span{
+    letter-spacing: 10px;
+    font-weight: 600;
+    opacity:50%;
+
+}
+
+.vide{
+    width: 5px;
+    flex:1;
+}
+
+
+
+/* menu2 */
+
+.menu2{
+    background-color: black;
+    padding:30px;
+    margin:0%;
+
+}
+
+/*pres2*/
+
+.pres2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.pres2 img{
+    border-radius: 50%;
+    border-top-left-radius: 0;
+}
+
+.pres2 .texte{
+    color: white;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+
+.pres2 .texte p:first-child {
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.pres2 .texte p:last-child {
+    color: white;
+    margin-left: 50px;
+    opacity: 60%;
+    width: 270px;
+
+}
+
+#separateur1 {
+    height: 4px;
+    width: 90%;
+    opacity:40%;
+    color:white;
+    background-color: white;
+    margin: 0 auto;
+}
+
