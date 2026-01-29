@@ -3,3 +3,6 @@ git add * -> ajoute sauf fichier cacher
 
 git commit -m "plusieur mot"
 git commit -m unmot
+
+align-items d'abord horizontal
+justifie-conteigne d'abord verticale

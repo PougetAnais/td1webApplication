@@ -47,11 +47,20 @@ body {
 
 .menu{
     display: flex;
-    gap: 20px;
-    text-align: center;
-    background-color: rgb(199, 255, 156);
+    text-align: start;
+    background-color: rgb(48, 111, 0);
+    flex-direction: column;
+    padding: 10px;
 }
-a{
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px;
+    gap: 20px;
+}
+
+.menu a{
     border: 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
